@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examinationsuppgift">
+    <meta name="author" content="Antonia">
+    <title>Analys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" fetchpriority="high" as="image" href="images/saluki-with-collar-1300px.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="images/saluki-with-collar-750px.webp" type="image/webp">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <form class="search-bar">
+                <!--label används istället för placeholder då det är mer semantiskt korrekt-->
+                <label class="search-bar-label" for="search-items">Sök på sidan:</label>
+                <input class="search-bar-input" type="search" id="search-items">
+                <button>Sök</button>
+            </form>
+            <button class="shopping-cart">
+                <img src="images/cart-shopping-solid.svg" alt="symbol för en varukorg" width="30" height="30">
+                Varukorg
+            </button>
+            <!--logo länkar även till startsidan, en funktion som ofta används och många användare är bekant med-->
+            <a href="index.html"><img class="logo" src="images/logo.webp"
+                    alt="Texten fancy hounds hundkläder med en svag siluett av en vit vinthund med halsband i bakgrunden"
+                    width="450" height="170"></a>
+            <nav class="navigation">
+                <!--"this-page" ska användas för att ge en indikation för vilken sida man är på i navigeringen-->
+                <a href="index.html" class="this-page">Hem</a>
+                <a href="analys.html">Analys</a>
+                <a href="">Halsband</a>
+                <a href="">Koppel</a>
+                <a href="">Selar</a>
+                <a href="">Täcken</a>
+            </nav>
+        </header>
+        <main>
+            <!-- Sätter analysen som en article då hela den fungerar utanför sitt sammanhang och kan delas
+            Varje del är en egen sektion då de hör ihop men inte fungerar utanför sitt sammanhang-->
+            <article>
+                <p>Denna sida har haft innehåll för en analys över arbetet med denna webbplats. Denna analysen var
+                    endast relevant för skoluppgiften och har tagits bort för detta exempel.</p>
+            </article>
+        </main>
+        <footer class="footer">
+            <section>
+                <h3>Navigation</h3>
+                <ul class="unordered-list">
+                    <li><a href="index.html" class="this-page">Hem</a></li>
+                    <li><a href="analys.html">Analys</a></li>
+                    <li><a href="">Halsband</a></li>
+                    <li><a href="">Koppel</a></li>
+                    <li><a href="">Selar</a></li>
+                    <li><a href="">Täcken</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Om oss</h3>
+                <ul class="unordered-list">
+                    <li><a href="">Hållbarhet</a></li>
+                    <li><a href="">Nyheter</a></li>
+                    <li><a href="">Sälj hos oss</a></li>
+                    <li><a href="">Jobba hos oss</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Kundtjänst</h3>
+                <ul class="unordered-list">
+                    <li>Tel: 123 456 78 90</li>
+                    <li><a href="">Leverans</a></li>
+                    <li><a href="">Vanliga frågor</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Vi levererar till hela norden</h3>
+                <p class="small-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam
+                    esse assumenda, velit in
+                    inventore error itaque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptate,
+                    amet
+                    culpa aliquid aspernatur eius?</p>
+            </section>
+            <section>
+                <h3>Sociala medier</h3>
+                <div class="social-media-links">
+                    <a href=""><img src="images/facebook.svg" alt="cirkel med bokstaven f inuti" width="40"
+                            height="40"></a>
+                    <a href=""><img src="images/instagram.svg" alt="en symbol av en polaroid kamera" width="40"
+                            height="40"></a>
+                    <a href=""><img src="images/youtube.svg" alt="en fyrkant med en pil i mitten" width="40"
+                            height="40"></a>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+</body>
+
+</html>
